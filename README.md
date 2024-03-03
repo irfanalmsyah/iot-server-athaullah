@@ -1,3 +1,4 @@
+# testing
 # IoT Server with Golang Fiber
 IoT Server for fulfilling my thesis at IPB University. In This research, researcher successfully developed a high performance IoT back-end server based on REST API with Golang Fiber framework, then compare its performance and memory usage effectiveness to application developed by previous research which use Python Falcon and Python Sanic framework. The method used for developing the application is waterfall method. Based on the result of the performance test, Golang Fiber application have transaction per second (TPS) performance 73 times faster than Python Falcon and 2 times faster than Python Sanic. Golang Fiber application also have memory usage 5 times more effective than Python Falcon and 1,6 times more effective than Python Sanic.
 
