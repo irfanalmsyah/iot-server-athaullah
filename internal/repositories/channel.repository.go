@@ -63,7 +63,7 @@ func (c *ChannelRepository) GetNodeChannelMultiple(ctx context.Context, tx helpe
 		}
 
 		nodeIdIndex := mapIdNodesIndex[channel.IdNode]
-		if limit >= 0 && len(nodeWithFeed[nodeIdIndex].Feed) < limit {
+		if limit < 0 || len(nodeWithFeed[nodeIdIndex].Feed) < limit {
 			nodeWithFeed[nodeIdIndex].Feed = append(nodeWithFeed[nodeIdIndex].Feed, channel)
 		}
 	}
