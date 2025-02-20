@@ -2,7 +2,7 @@
 
 # Connection details
 CONN_STRING="postgres://postgres:password@localhost"
-DB_NAME="iot"
+DB_NAME="rustdemo"
 INIT_FILE="./init.sql"
 
 # Run the commands
